@@ -1,0 +1,57 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.title {
+  background-color: darkorchid;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 24px;
+}
+
+.heading {
+  font-size: 70px;
+  margin: 20px 10px 20px 10px;
+}
+
+.link {
+  background-color: #97eef7;
+  padding: 6px;
+  color: black;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-left: 14px;
+}
+
+.subheading {
+  margin-left: 14px;
+  font-size: 34px;
+}
+
+.page-layout {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 400px;
+  width: 400px;
+  border-radius: 6px;
+  margin: 0px 10px 10px 14px;
+}
+
+.pakrat-description {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
