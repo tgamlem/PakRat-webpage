@@ -1,9 +1,13 @@
 * {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Alegreya";
+}
+
+.tab {
+    text-indent: 50px;
 }
 
 .title {
-  background-color: darkorchid;
+  background-color: #aaaaaa;
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 24px;
@@ -14,8 +18,19 @@
   margin: 20px 10px 20px 10px;
 }
 
+.introduction {
+  font-size: 50px;
+}
+
+.margins {
+  font-size: 26px;
+  margin-left: 50px;
+  margin-right: 50px;
+  line-height: 2;
+}
+
 .link {
-  background-color: #97eef7;
+  background-color: #b0e1ff;
   padding: 6px;
   color: black;
   text-decoration: none;
@@ -50,8 +65,43 @@
   margin: 0px 10px 10px 14px;
 }
 
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 6px;
+}
+
+.pakrat {
+  height: 120px;
+  width: 120px;
+}
+
 .pakrat-description {
-  font-size: 40px;
+  font-size: 30px;
+  margin-right: 26px;
   margin-left: 10px;
   margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.tyler-bio {
+  font-size: 30px;
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.levi-bio {
+  font-size: 30px;
+  padding-top: 120px;
+  line-height: 1.5;
+}
+
+.descriptor {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: alegreya;
 }
