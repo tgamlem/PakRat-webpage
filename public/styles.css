@@ -3,7 +3,7 @@
 }
 
 .tab {
-    text-indent: 50px;
+  text-indent: 50px;
 }
 
 .title {
@@ -45,7 +45,25 @@
 
 .page-layout {
   display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+.slideshow-container {
+  max-width: 350px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 .text-container {
